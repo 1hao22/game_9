@@ -1,0 +1,37 @@
+*{
+    font-family: 'cwTeXYen';
+    font-weight: 700;
+}
+.background{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 1194px;
+height: 834px;
+}
+.leave{
+    position: absolute;
+    left: 1068px;
+    top: 74px;    
+}
+.teeth{
+    position: absolute;
+    left: 371px;
+    top: 209px;
+}
+.teethtop{
+    position: absolute;
+    top: 120px;
+    left: 436px;
+    animation: shake 2s ease 2s 2 forwards;
+}
+@keyframes shake {
+    from{
+        top: 120px;
+        left: 436px;
+    }
+    to{
+        top: 166px;
+        left: 436px;
+    }
+}
